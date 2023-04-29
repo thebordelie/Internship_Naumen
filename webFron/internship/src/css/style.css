@@ -1,0 +1,55 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    /* width: 100%; */
+    height: 100vh;
+    background: linear-gradient(to right, blue, rgb(148, 4, 28));
+    font-family: 'roboto', sans-serif;
+    color: aliceblue;
+}
+
+.userForm button{
+    width: 100%;
+
+}
+
+.userForm input{
+    width: 100%;
+    text-align: center;
+    border-radius: 5px; 
+
+}
+
+button {
+    color: brown;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.userForm{
+    width: 350px;
+    height: 650px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    background: royalblue;
+    background: linear-gradient(to left, blue, rgb(148, 4, 28));
+    border: 5px solid black;
+    box-shadow: 0 40px 100px rgba(255, 255, 255, 0.1);
+    padding: 30px;
+}
+
+.table{
+    margin-left: auto;
+    margin-right: auto;
+    border-color: rgb(215, 209, 219);
+    text-align: center;
+
+}
+.table button {
+    width: 10%;
+}
